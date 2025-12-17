@@ -1,6 +1,6 @@
 # Hướng Dẫn Test Hệ Thống Mini-RAG
-
-Dưới đây là danh sách các câu hỏi mẫu (Prompts) để kiểm tra khả năng tìm kiếm ngữ nghĩa của hệ thống.
+-Cần tạo thêm folder data cùng cấp với mini_rag.ơy và config.py
+- Dưới đây là danh sách các câu hỏi mẫu (Prompts) để kiểm tra khả năng tìm kiếm ngữ nghĩa của hệ thống.
 
 ## Nhóm 1: Câu hỏi định nghĩa (Kiểm tra hiểu biết chung)
 *Dùng để kiểm tra xem hệ thống có tìm đúng đoạn định nghĩa trong Phần 1 và 2 không.*
