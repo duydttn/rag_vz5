@@ -1,0 +1,42 @@
+=== PHẦN 1: TỔNG QUAN VỀ TRÍ TUỆ NHÂN TẠO ===
+Trí tuệ nhân tạo (AI) là lĩnh vực khoa học máy tính chuyên tạo ra các hệ thống có khả năng thực hiện các tác vụ đòi hỏi trí thông minh của con người. Những tác vụ này bao gồm nhận diện giọng nói, ra quyết định, dịch thuật và nhận dạng hình ảnh.
+
+Machine Learning (Học máy) là một tập con của AI, tập trung vào việc phát triển các thuật toán cho phép máy tính học từ dữ liệu và cải thiện hiệu suất theo thời gian mà không cần được lập trình rõ ràng cho từng tác vụ cụ thể.
+
+Deep Learning (Học sâu) là một kỹ thuật chuyên sâu của Machine Learning, sử dụng các mạng nơ-ron nhân tạo nhiều lớp (Neural Networks) để mô phỏng cách não bộ con người xử lý thông tin. Nó đặc biệt hiệu quả trong xử lý ảnh và ngôn ngữ tự nhiên.
+
+=== PHẦN 2: KIẾN THỨC VỀ RAG VÀ VECTOR DATABASE ===
+RAG (Retrieval-Augmented Generation) là một kỹ thuật tối ưu hóa đầu ra của các mô hình ngôn ngữ lớn (LLM). Thay vì chỉ dựa vào dữ liệu đã được huấn luyện (vốn có thể bị lỗi thời), RAG cho phép hệ thống truy xuất thông tin từ một cơ sở dữ liệu kiến thức bên ngoài (như tài liệu nội bộ công ty) để đưa ra câu trả lời chính xác và cập nhật nhất.
+
+Quy trình của RAG gồm 3 bước chính:
+1. Retrieval (Truy xuất): Tìm kiếm các đoạn văn bản có liên quan nhất đến câu hỏi của người dùng từ cơ sở dữ liệu vector.
+2. Augmentation (Tăng cường): Kết hợp các đoạn văn bản tìm được vào ngữ cảnh (context) của câu hỏi.
+3. Generation (Sinh văn bản): Gửi toàn bộ ngữ cảnh đã bổ sung cho LLM để sinh ra câu trả lời cuối cùng.
+
+ChromaDB là một cơ sở dữ liệu vector (vector database) mã nguồn mở, được thiết kế để lưu trữ và truy vấn các vector embedding. Nó giúp các ứng dụng AI có thể "ghi nhớ" và tìm kiếm thông tin ngữ nghĩa cực nhanh. Khác với SQL truyền thống tìm kiếm theo từ khóa chính xác, ChromaDB tìm kiếm dựa trên độ tương đồng về ý nghĩa (semantic similarity).
+
+=== PHẦN 3: THÔNG TIN KHÓA HỌC (DỮ LIỆU GIẢ LẬP) ===
+Tên khóa học: Nhập môn AI và Ứng dụng RAG thực chiến.
+Mã học phần: AI-2025-PRO.
+Giảng viên phụ trách: Thầy Nguyễn Quang Hiệp
+Sinh viên: Bế Văn Duy
+Lớp: CNTTQT K22A
+Trợ giảng (TA): Thạc sĩ Lê Thị Nhài (Email: support@khoahocai.com).
+
+
+Thời gian học: Tối thứ 3 và thứ 5 hàng tuần, từ 19h30 đến 21h30.
+Địa điểm: Phòng Lab 305, Tòa nhà Công nghệ cao, Đại học FPT hoặc học Online qua Google Meet.
+Học phí: 5.500.000 VNĐ / khóa (đã bao gồm tài liệu và account OpenAI API).
+Chính sách hoàn tiền: Hoàn 100% học phí nếu rút hồ sơ trước ngày khai giảng 7 ngày.
+
+Yêu cầu đầu vào:
+- Biết lập trình Python cơ bản.
+- Có kiến thức về Đại số tuyến tính là một lợi thế.
+- Laptop cá nhân có RAM tối thiểu 8GB.
+
+Nội dung chi tiết từng buổi:
+- Buổi 1: Giới thiệu Python cho Data Science.
+- Buổi 2: Các thư viện NumPy, Pandas.
+- Buổi 3: Xây dựng model Machine Learning đầu tiên với Scikit-Learn.
+- Buổi 4: Deep Learning và PyTorch cơ bản.
+- Buổi 5: Thực hành xây dựng Chatbot RAG với LangChain và ChromaDB.
