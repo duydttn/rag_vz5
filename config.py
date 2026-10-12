@@ -7,5 +7,5 @@ OVERLAP = 20
 
 DEFAULT_QUERY = "tên sinh viên và mã sinh viên?"
 
-FILE_PATH = "data/data.txt"
+FILE_PATH = "data/Noi dung bao cao.DOCX"
 N_RESULTS = 2
